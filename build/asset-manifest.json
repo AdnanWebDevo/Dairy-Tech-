@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.357956bd.css",
+    "main.js": "/static/js/main.b99918d5.js",
+    "static/js/787.4ebcc41b.chunk.js": "/static/js/787.4ebcc41b.chunk.js",
+    "static/media/cow_header_600.png": "/static/media/cow_header_600.91a9ca3e88af97630e97.png",
+    "static/media/opt-founder-img.jpg": "/static/media/opt-founder-img.3f173ad3eb6a3b7be314.jpg",
+    "static/media/founder-campanies-2x.png": "/static/media/founder-campanies-2x.fcc1124f2f56ffc42ef3.png",
+    "static/media/wanda megalac.png": "/static/media/wanda megalac.2d6d584d54fb211b7d6d.png",
+    "static/media/team-member-1.jpg": "/static/media/team-member-1.3f3896c0004d832c2936.jpg",
+    "static/media/team-member-3.jpg": "/static/media/team-member-3.6dd28c4e5d5886a19c2b.jpg",
+    "index.html": "/index.html",
+    "main.357956bd.css.map": "/static/css/main.357956bd.css.map",
+    "main.b99918d5.js.map": "/static/js/main.b99918d5.js.map",
+    "787.4ebcc41b.chunk.js.map": "/static/js/787.4ebcc41b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.357956bd.css",
+    "static/js/main.b99918d5.js"
+  ]
+}
