@@ -1,0 +1,10 @@
+@import url(base/base.css);
+@import url(typography/typography.css);
+@import url(layout/layout.css);  
+@import url(utilites/utilites.css);
+@import url(variables/variables.css);
+@import url(components/navigation.css); 
+@import url(components/header.css); 
+@import url(components/team.css); 
+@import url(components/Products.css); 
+@import url(components/footer.css); 

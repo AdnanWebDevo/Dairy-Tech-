@@ -1,0 +1,27 @@
+.header {
+    width: 100%; 
+    background-color: #0060A5;
+    color: white;
+}    
+
+.header-left {
+    padding-bottom: 1rem;
+    padding-top: 1rem;  
+}
+
+.header-hero-cont {
+    align-items: center; 
+}
+
+.header-img-box {
+    width: 100%;
+}
+.header-hero_img {
+    max-width: 100%; 
+}
+
+.header-right {
+    background-color: #1281cf;
+    padding-bottom: 1rem;
+    padding-top: 1rem;   
+} 

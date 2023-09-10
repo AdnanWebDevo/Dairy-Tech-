@@ -1,0 +1,104 @@
+@import url(../variables/variables.css); 
+
+.navigation {
+
+} 
+.navigation-background {
+    background-color: var(--color-black);  
+    padding: 1rem 0; 
+}
+/* nav-content is flexed */
+.navigation-content {
+    justify-content: space-between;
+    align-items: center;
+} 
+.navigation-list {
+    list-style: none;
+}
+
+@media screen and (max-width: 41.5em) {
+    .navigation-list {
+        display: none; 
+    }
+}
+/* temp logo */
+.logo {
+    font-size: var(--txt-primary-heading); 
+    color: var(--color-white); 
+}
+.navigation-item {
+    
+}
+.navigation-item:not(:last-child) {
+    margin-right: 1.5rem;   
+} 
+.navigation-link {
+    font-size: var(--txt-base);
+    text-decoration: none;
+    color: var(--color-white);   
+    text-transform: capitalize; 
+}  
+
+
+/* Hamburger Meu */
+/* 
+.hamburger {
+    width: 4rem;    
+    height: 4rem;
+    background-color: blueviolet;  
+}
+
+.bar {
+    display: block;
+    width: 3.5rem;  
+    height: 5px; 
+    background-color: black;  
+    border-radius: 5px; 
+}
+
+.bar-1 {
+    transform: translateY(1rem);
+}
+
+.bar-1 {
+    transform: translateY(1.5rem); 
+}
+
+.bar-3 {
+    transform: translateY(2rem);  
+}  */
+
+/* .hamburger-menu {
+    width: 3.5rem;    
+    height: 3.5rem; 
+    background-color: blueviolet; 
+    display: flex; 
+    align-items: center; 
+} 
+.hamburger-bar  {
+    display: block;
+    width: inherit; 
+    height: 5px; 
+    background-color: black;  
+    border-radius: 5px;
+}
+
+.hamburger-bar::before,.hamburger-bar::after {
+    content: "";
+    display: block; 
+    width: inherit;
+    height: inherit;
+    border-radius: inherit; 
+}
+
+.hamburger-bar::before {
+    background-color: black; 
+    transform: translateY(-1rem);     
+
+}  
+
+.hamburger-bar::after {
+    background-color: black;
+    transform: translateY(0.75rem);    
+ 
+}    */

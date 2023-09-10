@@ -1,0 +1,88 @@
+body {
+    font-family: 'Open Sans', serif;
+    font-weight: 400;
+}   
+
+/* Heading */
+.primary-heading {
+    font-size: var(--txt-primary-heading-huge);   
+    text-transform: capitalize;
+    letter-spacing: 1px;   
+} 
+
+
+@media screen and (max-width: 54em) {
+    .primary-heading {
+        font-size: var(--txt-primary-heading); 
+
+    }
+}
+
+@media screen and (max-width: 41em)  {
+    .primary-heading {
+        font-size: var(--txt-primary-heading-huge); 
+    }
+} 
+
+.footer_heading {
+    font-size: 1.25rem;
+    margin-bottom: 2rem; 
+    font-weight: 400; 
+}
+
+.header-paragraph {
+    font-size: 1.25rem;
+    line-height: 1.75; 
+} 
+.paragraph-text {
+    font-size: 1.25rem;
+    line-height: 1.75;
+}
+.secondary-heading  {
+    font-size: var(--txt-sec-heading); 
+    font-weight: 400; 
+}
+
+.secondary-heading-sm {
+    font-size: var(--txt-sec-heading-sm); 
+    font-weight: 500; 
+} 
+
+
+.heading-role {
+    font-size: var(--txt-small);
+    font-weight: 500; 
+    color: var(--color-grey-dark-c); 
+    text-transform: capitalize; 
+}  
+
+.heading-experience {
+    font-size: var(--txt-base);
+    font-weight: 600;  
+    color: var(--color-grey-dark-c); 
+    text-transform: capitalize; 
+}  
+
+.heading-campanies {
+    font-size: var(--txt-base);
+    font-weight: 400;
+    color: var(--color-grey-dark-c);
+    text-transform: capitalize;
+}  
+
+/* Founder Description */
+.founder-about-description {
+    font-size: var(--txt-base-plus);
+    color: var(--color-grey-dark-c); 
+} 
+
+
+/* Founder Desc start quotes */
+.txt-quotes {
+    font-size: 2rem;
+}  
+
+/*  */
+.founder-about-description  {
+    max-width: 50ch; 
+} 

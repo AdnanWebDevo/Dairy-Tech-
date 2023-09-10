@@ -1,0 +1,44 @@
+.footer {
+    background-color: #1281cf;
+}  
+
+.footer_logo {
+    color: black; 
+}
+
+.footer-content {
+    padding: 2rem 0;   
+    display: flex; 
+} 
+
+@media screen and (max-width: 32.25em) {
+    .footer-content {
+        flex-direction: column; 
+    }
+}
+.footer-column:not(:last-child) {
+    margin-bottom: 3rem;
+    margin-right: 3rem;
+}
+.footer-col-desc {
+    max-width: 50ch; 
+} 
+
+.footer_list {
+    list-style: none; 
+}  
+
+.footer_item {
+    margin-bottom: 1rem; 
+}
+
+.footer_link {
+    text-decoration: none;
+    color: black; 
+}
+
+
+.footer-copyright {
+    font-size: 1rem; 
+    text-align: center; 
+}  

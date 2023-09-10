@@ -1,0 +1,43 @@
+.founder-content {
+    align-items: center; 
+}
+
+/* Team  */
+.founder-img-box {
+    max-width: 20rem;   
+    margin-right: 2rem; 
+} 
+
+@media screen and (max-width: 40.625em) {
+    .founder-img-box {
+        max-width: 14rem; 
+    }
+}
+
+.founder-companies-box {
+    max-width: 13rem;   
+}
+
+.founder-info {
+    margin-right: 2rem; 
+} 
+
+.team-members {
+    
+}
+
+.member-img-box {
+    width: 6rem; 
+    height: 6rem;
+    margin: 0 auto; 
+    border-radius: 50%;
+    overflow: hidden; 
+}  
+.member-about-description {
+    font-weight: 400;
+    font-size: 1rem; 
+    line-height: 1.5;
+}
+.member-details {
+
+} 

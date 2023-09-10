@@ -1,0 +1,62 @@
+:root {
+
+    /* COLORS */
+
+    /* Primary Color Variables GREEN */
+    --primary-green: #3ECE78;
+    --green-dark: #016428;
+    --primary-green-lite: #EEFFF5;
+    --primary-green-slight: #ECFFF0;
+
+    /* Primary Color Variables BLUE */
+    --primary-blue: #1C8EE1;  
+    --blue-dark: #024779;
+    --primary-blue-lite: #EDF7FF;
+    --primary-green-slight: #E9F8FF;
+
+    /* Primary Color Variables ORANGE */
+    --primary-orange: #FF9330;  
+    --orange-dark: #A85100;
+    --primary-orange-lite: #FFF6EE; 
+    --primary-orange-slight: #fcf7f2;  
+
+
+    /* GREY SCALE COLORS */
+    --color-black: #000;
+    --color-white: #fff;
+    --color-grey-dark-a: #666; 
+    --color-grey-dark-b: #555;
+    --color-grey-dark-c: #444;
+    --color-grey-dark-d: #333; 
+    
+    --color-grey-med-a: #aaa; 
+    --color-grey-med-b: #999; 
+    --color-grey-med-c: #888;
+    --color-grey-med-d: #777;
+
+    /* TEXT Variables */
+    --txt-base: 1rem;
+    --txt-small: 0.9rem;
+    --txt-base-plus: 1.15rem;
+
+    /* Primary Heading Variables */
+    --txt-primary-heading: 2rem;
+    --txt-primary-heading-big: 2.5rem;
+    --txt-primary-heading-lg: 2.75rem;
+    --txt-primary-heading-huge: 3rem;
+
+    /* Secondary Heading Variables */
+    --txt-sec-heading-sm: 1.1rem; 
+    --txt-sec-heading: 1.5rem;
+    --txt-sec-heading-big: 1.75rem;
+    --txt-sec-heading-lg: 1.75rem;
+    --txt-sec-heading-huge: 1.85rem;
+    --txt-sec-heading-extra: 1.95rem;
+
+
+    /* Margins */
+    --margin-section-sm: 3rem;
+    --margin-section: 5rem;
+    --margin-section-md: 6rem;
+    --margin-guttar-2: 2rem;  
+}  

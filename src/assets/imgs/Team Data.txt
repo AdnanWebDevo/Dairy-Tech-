@@ -1,0 +1,34 @@
+
+Team Member 1;
+Dr Akbar Ali
+MSC Animal Nutrition 
+40 years experience
+Role: Production
+
+descrition: Dr akbar ali is serving in the field as a production expert.
+
+
+
+
+Dr Babar Rasheed
+PhD Animal Nutrition
+MBA LUMS
+25 years experience
+Role: Sales.
+
+Desc: With more than 20 years of exp Dr Babar is serving in diary tech from the begining.
+
+
+
+Omar Amjad
+BS Dairy Technology
+Role: Marketing
+
+Desc: Omar is serving in dariy tech as a nutritionist and marketing agent.
+
+
+Muhammad Adnan Abdullah
+Role: IT & Ecommerce
+Desc: Adnan is serving us a developer on a website.
+
+
