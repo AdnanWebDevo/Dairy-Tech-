@@ -1,7 +1,7 @@
 import founderImgUrl from '../assets/imgs/opt-founder-img.jpg';
 import campniesImgUrl from '../assets/imgs/founder-campanies-2x.png'; 
 import member1Img from '../assets/imgs/team-member-1.jpg';  
-import member2Img from '../assets/imgs/team-member-2.jpg';  
+import member2Img from '../assets/imgs/team-member-2.jpg'; 
 import member3Img from '../assets/imgs/team-member-3.jpg';     
 
  
@@ -44,15 +44,15 @@ const Team = () => {
                 <FounderAbout/>   
                 </div> 
                 <div className='team-members row'> 
-                <TeamMember name={team.member1Name} role={teamMemRoles.member1Role} message={teamMesages.member1Msg} Img={teamMemImgs.tMem1Img} colorBg={colorsClasses.BgGreenLite} colorBorder={colorsClasses.borderPrimaryGreen}/>
-                <TeamMember name={team.member2Name} role={teamMemRoles.member2Role} message={teamMesages.member2Msg} Img={teamMemImgs.tMem2Img} colorBg={colorsClasses.BgOrangeLite} colorBorder={colorsClasses.borderPrimaryOrange}/>
-                <TeamMember name={team.member3Name} role={teamMemRoles.member3Role} message={teamMesages.member3Msg} Img={teamMemImgs.tMem3Img} colorBg={colorsClasses.BgBlueLite} colorBorder={colorsClasses.borderPrimaryBlue}/>    
+                <TeamMember name={team.member1Name} role={teamMemRoles.member1Role} message={teamMesages.member1Msg} Img={`.${member1Img}`} colorBg={colorsClasses.BgGreenLite} colorBorder={colorsClasses.borderPrimaryGreen}/>
+                <TeamMember name={team.member2Name} role={teamMemRoles.member2Role} message={teamMesages.member2Msg} Img={`.${member2Img}`} colorBg={colorsClasses.BgOrangeLite} colorBorder={colorsClasses.borderPrimaryOrange}/>
+                <TeamMember name={team.member3Name} role={teamMemRoles.member3Role} message={teamMesages.member3Msg} Img={`.${member3Img}`} colorBg={colorsClasses.BgBlueLite} colorBorder={colorsClasses.borderPrimaryBlue}/>    
                 </div>    
             </div>     
     )  
 } 
-
-const TeamMember = ({name,role,message,colorBorder,colorBg,Img}) => {
+ 
+const TeamMember = ({name,role,message,colorBorder,colorBg,Img}) => { 
     return (
         <div className={`member member-1 col-1-of-3 ${colorBg} ${colorBorder} padding-all-1`}>     
             <MemberImg ImgUrl={Img}/>  
@@ -82,8 +82,8 @@ const MemberDetails = ({name,role,message}) => {
 const FounderImg = () => {
     return (
         <div className='founder-img-box'> 
-            <img src={founderImgUrl} alt='founder' className='img-width-100'/>    
-        </div>   
+            <img src={`.${founderImgUrl}`} alt='founder' className='img-width-100'/>    
+        </div>    
     )  
 }   
 

@@ -1,4 +1,5 @@
 import productImg from '../assets/imgs/wanda megalac.png'; 
+
 const ProductCont = () => {
     const prodcutOne = {
         name: 'Bypass Fat',
@@ -51,7 +52,7 @@ const Products = ({productInfo,BgColor}) => {
           <div className="product col-1-of-3 text-center margin-guttar-2">   
             <div className={`product-header ${BgColor}`}>  
               <div className="img-box product-img">
-                <img src={productImg} alt='wanda bag 40 kg'className='img-width-100'/> 
+                <img src={`.${productImg}`} alt='wanda bag 40 kg'className='img-width-100'/> 
               </div>
               <h1 className="product-name heading secondary clr-dark-grey">{productInfo.name}</h1>
             </div>

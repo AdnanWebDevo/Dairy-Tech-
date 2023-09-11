@@ -13,7 +13,7 @@ const Header = () => {
                 
                     <div className="col-1-of-2 header-right">
                          <div className="header-img-box">
-                            <img src={heroImg} className="header-hero_img"/>
+                            <img src={`.${heroImg}`} className="header-hero_img"/>
                          </div> 
                     </div>
                 </div>
