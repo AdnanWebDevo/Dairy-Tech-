@@ -1,8 +1,8 @@
 import founderImgUrl from '../assets/imgs/opt-founder-img.jpg';
 import campniesImgUrl from '../assets/imgs/founder-campanies-2x.png'; 
 import member1Img from '../assets/imgs/team-member-1.jpg';  
-import member2Img from '../assets/imgs/team-member-2.jpg'; 
-import member3Img from '../assets/imgs/team-member-3.jpg';     
+import member2Img from '../assets/imgs/team-member-2.jpg';
+import member3Img from '../assets/imgs/team-member-3.jpg';
 
  
 const Team = () => {

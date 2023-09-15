@@ -26,12 +26,12 @@ const Footer = () => {
       <div className="footer-column">
         <h2 className='footer_heading'>Social Links</h2>
         <ul className='footer_list'>
-          <li className='footer_item'><a href="#" target="_blank" className='footer_link'> Facebook </a> </li>
-          <li className='footer_item'><a href="#" target="_blank" className='footer_link'> Instagram </a> </li>
-          <li className='footer_item'><a href="#" target="_blank" className='footer_link'> Twitter </a> </li>
-          <li className='footer_item'><a href="#" target="_blank" className='footer_link'> Linked In </a></li>
+          <li className='footer_item'><a href="https://www.facebook.com/profile.php?id=100094078684048" target="_blank" className='footer_link'> Facebook </a> </li>
+          <li className='footer_item'><a href="https://www.instagram.com/dairytech198/" target="_blank" className='footer_link'> Instagram </a> </li>
+          <li className='footer_item'><a href="https://twitter.com/DairyTechX" target="_blank" className='footer_link'> Twitter </a> </li>
+          <li className='footer_item'><a href="https://www.linkedin.com/in/dairy-tech-514725289/" target="_blank" className='footer_link'> Linked In </a></li>
         </ul>
-      </div>
+      </div> 
 
         </div> 
       </div>
